@@ -1,0 +1,20 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "menu_fallow": [
+            {
+                "name": "漫画",
+                "url": "https://gongyue-shop.oss-cn-hangzhou.aliyuncs.com/img/mine/liter1.svg"
+            },
+            {
+                "name": "小说",
+                "url": "https://gongyue-shop.oss-cn-hangzhou.aliyuncs.com/img/mine/liter2.svg"
+            },
+            {
+                "name": "娱乐",
+                "url": "https://gongyue-shop.oss-cn-hangzhou.aliyuncs.com/img/mine/liter3.svg"
+            }
+        ]
+    }
+}

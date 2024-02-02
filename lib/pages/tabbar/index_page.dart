@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_shop/generated/l10n.dart';
 import 'package:flutter_shop/store/home_store.dart';
+import 'package:flutter_shop/store/my_store.dart';
 import 'package:flutter_shop/store/system_store.dart';
 import '../../store/category_goods_list_store.dart';
 import '../../store/category_store.dart';
@@ -70,7 +71,9 @@ class _IndexPageState extends State<IndexPage> {
     ], child: CategoryPage()),
     MessagePage(),
     CartPage(),
-    MyPage(),
+    MultiBlocProvider(providers: [
+      BlocProvider(create: (_) => MyStore()),
+    ], child: MyPage()),
   ];
 
   @override

@@ -2,7 +2,7 @@
  * @Author: 高江华 g598670138@163.com
  * @Date: 2023-09-21 11:25:45
  * @LastEditors: 高江华
- * @LastEditTime: 2024-02-02 17:17:41
+ * @LastEditTime: 2024-03-11 10:55:00
  * @Description: file content
  */
 import 'dart:convert';
@@ -11,7 +11,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_shop/generated/l10n.dart';
 import 'package:flutter_shop/models/my_model.dart';
 import 'package:flutter_shop/store/my_store.dart';
 import 'package:flutter_svg/flutter_svg.dart';
